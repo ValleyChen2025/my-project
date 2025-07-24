@@ -1,0 +1,39 @@
+/* 基础样式重置 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* 主容器 */
+#app {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* 按钮样式 */
+.action-btn {
+  padding: 12px 24px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.action-btn:hover {
+  background: #45a049;
+}
+
+/* 动态内容样式 */
+.content-text {
+  margin-top: 15px;
+  padding: 10px;
+  background: #f0f0f0;
+  border-radius: 4px;
+}
